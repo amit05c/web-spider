@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-      <h1>Welcome to Secret Santahgjbk!</h1>
+      <h1>Welcome to Secret Santa</h1>
       <router-link to="/register" class="button">Go to Registration</router-link>
     </div>
   </template>
