@@ -58,10 +58,9 @@ const handleDraw = async () => {
   margin-top: 50px;
   background-color: #f9f9f9;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 50px;
   margin: auto;
-  border: 5px solid rgb(116, 101, 101);
 }
 .error {
   color: red;

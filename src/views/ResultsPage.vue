@@ -1,6 +1,6 @@
    <template>
     <div class="container">
-      <h1 style="color: red;">RESULTS</h1>
+      <h1 style="color: red;">RESULT</h1>
       <ul>
         <li v-for="(assignee, participant) in assignments" :key="participant">
           <span class="participant">{{ participant }}</span>
@@ -29,8 +29,7 @@
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: 5px solid rgb(116, 101, 101);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     max-height: 50vh;
     overflow-y: auto;
   }
