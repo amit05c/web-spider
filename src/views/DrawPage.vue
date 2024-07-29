@@ -1,7 +1,7 @@
 <template>
     <div class="container">
       <h1>Draw</h1>
-      <button @click="handleDraw">Draw Names</button>
+      <button class="draw-btn" @click="handleDraw">Draw Names</button>
       <p v-if="errorMessage" class="error">{{ errorMessage }}</p>
     </div>
   </template>
@@ -64,6 +64,7 @@
   
   <style>
   .container {
+    width: 50vw;
     text-align: center;
     margin-top: 50px;
     background-color: #f9f9f9;
@@ -74,6 +75,17 @@
   }
   .error {
     color: red;
+  }
+
+  .draw-btn{
+    display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
   }
   </style>
   

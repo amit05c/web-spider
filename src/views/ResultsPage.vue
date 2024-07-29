@@ -1,6 +1,6 @@
    <template>
     <div class="container">
-      <h1>Results</h1>
+      <h1 style="color: red;">Results</h1>
       <ul>
         <li v-for="(assignee, participant) in assignments" :key="participant">
           <span class="participant">{{ participant }}</span>
@@ -70,7 +70,7 @@
   /* Responsive design */
   @media (max-width: 600px) {
     .container {
-      width: 100%;
+      width: 100vw;
       padding: 10px;
     }
     
