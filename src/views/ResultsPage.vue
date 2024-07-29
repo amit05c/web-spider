@@ -1,6 +1,6 @@
    <template>
     <div class="container">
-      <h1 style="color: red;">Results</h1>
+      <h1 style="color: red;">RESULTS</h1>
       <ul>
         <li v-for="(assignee, participant) in assignments" :key="participant">
           <span class="participant">{{ participant }}</span>
@@ -23,14 +23,16 @@
   </script>
   
   <style scoped>
-  /* Basic container styling */
   .container {
-    max-width: 600px;
+    width: 50vw;
     margin: 0 auto;
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 5px solid rgb(116, 101, 101);
+    max-height: 50vh;
+    overflow-y: auto;
   }
   
   /* Header styling */
@@ -70,7 +72,7 @@
   /* Responsive design */
   @media (max-width: 600px) {
     .container {
-      width: 100vw;
+      width: 80vw;
       padding: 10px;
     }
     

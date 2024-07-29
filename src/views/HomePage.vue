@@ -1,14 +1,18 @@
 <template>
   <div class="container">
     <!-- <img src="@/assets/images/santa.webp" alt="Santa" class="santa-image"> -->
-    <h1>Welcome to Secret Santa</h1>
-    <router-link to="/register" class="button">Go to Registration</router-link>
+    <div>
+      <h1>Welcome to Secret Santa</h1>
+      <router-link to="/register" class="button"
+        >Go to Registration</router-link
+      >
+    </div>
   </div>
 </template>
 
 <style scoped>
 .container {
-  max-width: 80%;
+  width: 50vw;
   text-align: center;
   margin-top: 50px;
   padding: 50px;
@@ -16,6 +20,11 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: auto;
+  border: 5px solid rgb(116, 101, 101);
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .santa-image {
@@ -38,6 +47,7 @@
 @media (max-width: 600px) {
   .container {
     padding: 20px;
+    width: 80vw;
   }
 
   .santa-image {

@@ -93,6 +93,9 @@ const handleSubmit = async () => {
   background-color: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 5px solid rgb(116, 101, 101);
+  max-height: 50vh;
+  overflow-y: auto;
 }
 
 .participant {
@@ -152,8 +155,9 @@ const handleSubmit = async () => {
 /* Mobile responsiveness */
 @media (max-width: 600px) {
   .rcontainer {
-    width: 100vw;
+    width: 80vw;
     padding: 10px;
+
   }
 
   .participant {
